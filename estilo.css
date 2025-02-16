@@ -1,0 +1,143 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #c1d1e0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(15, 3, 59);
+    color: #e7ddee;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    margin: 20px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgb(15, 3, 59);
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.product h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.product p {
+    color: rgb(12, 5, 53);
+    font-size: 16px;
+}
+
+.buy-btn {
+    background: rgb(7, 107, 110);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+}
+
+.buy-btn:hover {
+    background: rgb(7, 107, 110);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(7, 107, 110);
+    padding: 15px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+.logo {
+    align-items: start;
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+h2 {
+    align-items: center;
+    color: rgb(7, 107, 110);
+    font-size: 30px;
+
+}
+
+p {
+    font-family: Arial, sans-serif;
+    color: rgb(1, 28, 29);
+    background-color: white;
+    font-size: 16px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div {
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+    background-color: white;
+    font-size: 16px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(7, 107, 110);
+    background-color: white;
+    font-size: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product {
+    align-items: center;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    width: 30%;
+}
+
+.product img {
+    align-items:baseline;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex; /* Activa Flexbox */
+    justify-content: space-between; /* Distribuye el espacio entre los productos */
+    align-items: center; /* Centra verticalmente los productos */
+    flex-wrap: nowrap; /* Evita que los productos se envuelvan a la siguiente línea */
+}
