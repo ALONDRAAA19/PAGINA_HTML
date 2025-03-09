@@ -32,6 +32,7 @@ section {
 }
 
 footer {
+    margin-top: 30px;
     text-align: center;
     padding: 10px 0;
     background-color: rgb(15, 3, 59);
@@ -88,7 +89,12 @@ h2 {
     align-items: center;
     color: rgb(7, 107, 110);
     font-size: 30px;
+}
 
+h3 {
+    align-items: center;
+    color: rgb(7, 107, 110);
+    font-size: 30px;
 }
 
 p {
@@ -146,15 +152,61 @@ h4 {
     align-items: center;
     background: #c1d1e0;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 15px rgb(15, 3, 59);
     margin: 15px;
     padding: 15px;
     text-align: center;
     width: 30%;
+    margin-bottom: 15px;
+}
+
+.from-group label {
+    display: block;
+    font-weight: bold;
+    background: #c1d1e0;
+    margin-bottom: 5px;
+}
+
+.from-group input,
+.from-group textarea {
+    width: 50%;
+    padding: 10px;
+    border: 3px solid rgb(15, 3, 59);
+    border-radius: 4px;
+}
+
+.from-group textarea {
+    resize: vertical;
 }
 
 .btn {
+    padding: 12px 20px;
+    border: 1px;
+    border-radius: 4px;
+    cursor: pointer;
     align-items: center;
-    background: #c1d1e0;
+    background: rgb(7, 107, 110);
     text-align: center;
+}
+
+.contenedor-contacto {
+    padding: 30px;
+    background-color: #c1d1e0;
+    border-radius: 20px;
+    box-shadow: 0 3px 15px rgb(15, 3, 59);
+}
+
+.contact-ind {
+    width: 70%;
+}
+
+.punto-venta {
+    background-color: #c1d1e0;
+    padding: 20px;
+    margin-top: 25px;
+    border-radius: 8px;
+}
+
+.btn:hover {
+    background-color: rgb(15, 3, 59);
 }
